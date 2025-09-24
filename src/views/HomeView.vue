@@ -1,7 +1,6 @@
 <script setup>
 import { onMounted, reactive, ref, computed } from 'vue';
 import ListPokemons from '../components/ListPokemons.vue';
-import { keyAliasMap } from 'vuetify/lib/composables/hotkey/key-aliases.mjs';
 import CardPokemonSelected from '../components/CardPokemonSelected.vue';
 
 let urlBasePng = ref("https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/");
