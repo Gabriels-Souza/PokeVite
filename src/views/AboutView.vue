@@ -33,7 +33,7 @@
                 <br>
                 <!---->
                 <h3> GitHub </h3>
-                <a href="" target="_blank" class="btn buttonCustom fw-semibold"> Repositório PokeVite </a>
+                <a href="https://github.com/Gabriels-Souza/PokeVite" target="_blank" class="btn buttonCustom fw-semibold"> Repositório PokeVite </a>
                 <!---->
                 <br>
                 <br>
