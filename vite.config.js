@@ -4,5 +4,13 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(), VitePWA({ registerType: 'autoUpdate' })],
+  plugins: [
+    vue(),
+    VitePWA({ registerType: 'autoUpdate' })
+  ],
+  build: {
+    rollupOptions: {
+      external: ['vuetify/lib/composables/hotkey/key-aliases.mjs']
+    }
+  }
 })
