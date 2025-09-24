@@ -8,7 +8,9 @@ const pokemon = defineProps(["name", "urlBasePng"]);
         <div class="card p-2 mb-4 cardListPokemon">
             <p class="text-center">{{ pokemon.name }}</p>
             <img 
-            :src="urlBasePng" class="card-img-top" 
+            :src="urlBasePng" 
+            class="card-img-top"
+            loading="lazy"
             alt="..."
             />
         </div>
