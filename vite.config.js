@@ -8,6 +8,7 @@ export default defineConfig({
     vue(),
     VitePWA({ registerType: 'autoUpdate' })
   ],
+  base: './',
   build: {
     rollupOptions: {
       external: ['vuetify/lib/composables/hotkey/key-aliases.mjs']
